@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?z6rrar');
+  src:  url('fonts/icomoon.eot?z6rrar#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?z6rrar') format('truetype'),
+    url('fonts/icomoon.woff?z6rrar') format('woff'),
+    url('fonts/icomoon.svg?z6rrar#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-call:before {
+  content: "\e900";
+  font-size: 80px;
+}
+.icon-call1:before {
+  content: "\e900";
+  color: orange;
+  font-size: 34px;
+  margin-right: 20px;
+  
+}
+.icon-location_on:before {
+  content: "\e901";
+  color: orange;
+  font-size: 34px;
+  margin-right: 20px;
+}
+.icon-verified:before {
+  content: "\e903";
+  font-size: 80px;
+}
+.icon-groups:before {
+  content: "\e902";
+  font-size: 80px;
+}
+.icon-award:before {
+  content: "\e905";
+  font-size: 80px;
+}
+.icon-award1:before {
+  content: "\e906";
+}
+.icon-checkmark:before {
+  content: "\e904";
+  color: orange;
+}
+.icon-checkmark2:before {
+  content: "\e904";
+  color:#769A5A;
+}
